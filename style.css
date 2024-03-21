@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    background-image: url("https://i.postimg.cc/CxSL6n6H/bag.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 300px;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #279d2e, #1eb8b8);
+    height: auto;
+}
+header img{
+    width: 50%;
+    padding: 15px 0 35px 0;
+}
+.todo{
+    width: 100%;
+    max-width: 600px;
+}
+
+.caja{
+    background-color: white;
+    width: 90%;
+    border-radius: 20px;
+    padding: 20px;
+    margin:auto;
+    margin-top: -20px;
+    
+
+}
+.titu{
+    padding-bottom: 1.5rem;
+    color: #279d2e;
+    margin-top: 15px;
+}
+.cam label{
+    
+    color: #3c3c3b;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+span{
+    color:red;
+    font-weight: 600;
+}
+.cam input{
+    border: none;
+    border-bottom: 1px solid;
+    padding: 6px;
+    width: 97%;
+    background-color: #f8f8f8;
+    outline: none;
+    line-height: 1.5;
+    margin: 5px 0 15px 0;
+    font-size: 1rem;
+}
+.btn{
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#button{
+   
+    width: 100%;
+    margin: auto;
+    background-color: #3c3c3b;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 4px; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 4px; 
+    border-bottom-left-radius: 10px; 
+    font-size: 16px;
+    padding: 12px 6px;
+    cursor: pointer;
+}
+#gif{
+    margin: 100px 0;
+}
+.adis{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    line-height: 2;
+}
+a{
+    color: #007a2b;
+}
+
+#pp{
+    
+    font-size: 1rem;
+}
+.l3{
+    width: 100%;
+    justify-content: space-around;
+}
+@media(min-width: 600px){
+    .caja{
+        width: 93%;
+        margin-top: 0;
+        box-shadow: 0 0 0.938rem #0000001a;
+        border-radius: 0;
+    }
+    .todo{
+        margin-top: 100px!important;
+        margin: auto;
+        
+    }
+
+    header{
+        padding: 0;
+    }
+    header img{
+        width: 30%;
+    }
+    .adis{
+        padding-bottom: 200px;
+    }
+}
+
